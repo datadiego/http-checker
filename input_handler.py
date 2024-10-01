@@ -2,7 +2,7 @@ import argparse
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Comprobador de enlaces")
-    parser.add_argument("host", help="La direccion a analizar")
+    parser.add_argument("input1", help="La direccion a analizar")
     parser.add_argument("input2", help="Argumento 2")
     parser.add_argument("-o1", "--opcional1", help="Argumento opcional 1")
     parser.add_argument("-o2", "--opcional2", help="Argumento opcional 2")
